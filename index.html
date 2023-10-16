@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vue Js-Testing</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <style>
+        ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 7px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>Berikut ini adalah nilai dari 1 sampai 50 dengan menggunakan program Vue JS Looping</h1>
+        <ul>
+            <li v-for="number in numbers" :key="number" ><h2>{{ number }}</h2></li>
+        </ul>
+    </div>
+    <!-- Koneksi ke script Vue Js -->
+    <script src="vue.js"></script>
+</body>
+
+</html>
