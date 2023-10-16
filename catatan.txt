@@ -1,0 +1,15 @@
+1. Instal TypeScript (jika belum terinstal):
+-buat direktori baru dengan nama (yang anda inginkan: contoh:praktikum dll.)
+-npm install -g typescript
+-Membuat File Program TypeScript:
+-Buat file TypeScript baru dengan ekstensi .ts 
+-Contoh, Anda dapat membuat file perulangan1.ts dan perulangan2.ts
+-tambahkan kode perulangan di dalamnya:
+
+2. Jalankan Program tersebut di terminal dengan peritah berikut:
+-Perulangan 1 : 
+    tsc perulangan1.tes 
+    node perulangan1.tes
+-Perulangan 2 : 
+    tsc perulangan2.tes 
+    node perulangan2.tes
